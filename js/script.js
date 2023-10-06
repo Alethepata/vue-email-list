@@ -13,8 +13,62 @@ createApp({
         .then((risposta)=>{
             const email = risposta.data.response;
             this.emails.push(email)
-            console.log(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
+        }),
+        axios.get(this.url)
+        .then((risposta)=>{
+            const email = risposta.data.response;
+            this.emails.push(email)
+            
         })
-        
+ 
     }
 }).mount('#app')
