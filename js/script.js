@@ -11,62 +11,52 @@ createApp({
         
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         }),
         axios.get(this.url)
         .then((risposta)=>{
-            const email = risposta.data.response;
-            this.emails.push(email)
+            this.emails.push(risposta.data.response)
             
         })
  
