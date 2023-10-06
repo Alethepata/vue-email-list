@@ -7,9 +7,11 @@ Attraverso l’ API di Boolean generare 10 indirizzi email e stamparli in pagina
      - l'URL 
      - un'arrey vuoto
 
-2. richiamo dentro un'istanza(axios.get()) l'URL salvato prima
+2. creo un ciclo while
 
-3. dentro ".then" prendo l'elemento che mi interessa e lo pusho dentro l'array vuoto(x10)
+3. all'interno del ciclo while richiamo tramite un'istanza(axios.get()) l'URL salvato prima
 
-4. stampo l'array 
+4. dentro ".then" prendo l'elemento che mi interessa e lo pusho dentro l'array vuoto(x10)
+
+5. stampo l'array 
 
