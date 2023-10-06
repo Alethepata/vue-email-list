@@ -7,58 +7,27 @@ createApp({
             emails:[]
         }
     },
+    methods: {
+
+        getApi(){
+            let i = 0;
+            while(i < 10) {
+    
+            axios.get(this.url)
+            .then((risposta)=>{
+                this.emails.push(risposta.data.response)
+                
+            });
+    
+            i ++ 
+    
+            }   
+        }
+
+    },
     mounted(){
-        
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        }),
-        axios.get(this.url)
-        .then((risposta)=>{
-            this.emails.push(risposta.data.response)
-            
-        })
+
+        this.getApi()
  
     }
 }).mount('#app')
